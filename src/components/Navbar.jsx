@@ -26,6 +26,8 @@ function Navbar() {
           </div>
         </nav>
       </div>
+      <p className='app__tag-line1'>Welcome</p>
+      <p className='app__tag-line2'>to Hawaii </p>
     </>
   );
 }
