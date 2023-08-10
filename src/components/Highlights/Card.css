@@ -4,13 +4,19 @@
 }
 
 .app__cards {
-  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
   margin-top: 500px;
-  margin-left: 400px;
+  margin-left: 110px;
+  bottom: 30px;
 }
 
 .app__card {
-  background-color: #71caf7;
+  background-color: rgb(235, 247, 245);
   border-radius: 10px;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
   width: 368px;
@@ -21,8 +27,41 @@
 
 .image img {
   width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+.app__card-content {
+  padding: 20px;
+}
+
+.app__card-content h3 {
+  margin: 10px 0;
+  color: rgb(6, 116, 96);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.app__card-content p {
+  color: rgb(7, 6, 28);
+}
+
+.app__arrow {
+  margin-left: 80%;
+  margin-right: 20px;
+  position: relative;
+  background-color: rgb(156, 245, 229);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .app__arrow-btn {
-  width: 30px;
+  position: absolute;
+  width: 25px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
