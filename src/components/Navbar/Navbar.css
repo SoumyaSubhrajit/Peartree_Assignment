@@ -34,14 +34,9 @@ body {
   border-radius: 20px;
   padding: 12px;
   width: 1200px;
+  position: fixed;
+  z-index: 2;
 }
-
-/* .app__navbar-bg {
-  width: 1512px;
-  background-size: cover; 
-  height: 560px;
-  background-position: center center; 
-} */
 
 .app__navbar {
   padding: 5px;

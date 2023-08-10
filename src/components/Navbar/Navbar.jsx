@@ -3,7 +3,6 @@ import { motion } from 'framer-motion';
 import { useState } from 'react';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import './Navbar.css';
-import image1 from '../images/Image.png';
 
 function Navbar() {
   const [toggle, setToggle] = useState(false);
@@ -27,7 +26,7 @@ function Navbar() {
         </nav>
       </div>
       <p className='app__tag-line1'>Welcome</p>
-      <p className='app__tag-line2'>to /8p>
+      <p className='app__tag-line2'>to Hawaii </p>
     </>
   );
 }
