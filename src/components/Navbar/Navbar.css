@@ -24,6 +24,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   height: 500px;
+  position: relative;
 }
 
 .main-div {
@@ -34,8 +35,6 @@ body {
   border-radius: 20px;
   padding: 12px;
   width: 1200px;
-  position: fixed;
-  z-index: 2;
 }
 
 .app__navbar {

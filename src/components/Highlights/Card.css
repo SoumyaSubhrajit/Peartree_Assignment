@@ -1,45 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.app__cards {
+  position: relative;
+  margin-top: 500px;
+  margin-left: 400px;
+}
+
 .app__card {
-  background-color: #ffffff;
+  background-color: #71caf7;
   border-radius: 10px;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  width: 300px;
-  padding: 20px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+  width: 368px;
+  height: 340px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
 }
 
-.app__card img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px 10px 0 0;
+.image img {
+  width: 100%;
 }
 
-.app__card h3 {
-  margin: 10px 0;
-  font-size: 1.5rem;
-}
-
-.app__card p {
-  font-size: 1rem;
-  color: #6c757d;
-}
-
-.app__arrow-btn {
-  margin-top: 20px;
-}
-
-.app__arrow {
-  width: 40px;
-  height: 40px;
-  stroke: #007bff;
-  transition: transform 0.2s;
-}
-
-.app__arrow:hover {
-  transform: scale(1.1);
-}
 .app__arrow-btn {
   width: 30px;
 }
