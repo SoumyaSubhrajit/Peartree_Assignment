@@ -27,7 +27,7 @@ function Navbar() {
         </nav>
       </div>
       <p className='app__tag-line1'>Welcome</p>
-      <p className='app__tag-line2'>to Hawaii </p>
+      <p className='app__tag-line2'>to /8p>
     </>
   );
 }
