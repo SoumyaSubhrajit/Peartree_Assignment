@@ -1,5 +1,7 @@
 * {
   font-family: 'DM Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 
 .main-div {
@@ -10,6 +12,25 @@
   border-radius: 20px;
   padding: 10px;
 }
+
+/* .app__navbar-bg {
+  width: 1512px;
+  background-size: cover; 
+  height: 560px;
+  background-position: center center; 
+} */
+
+.slide-container {
+  /* margin: 0px; */
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  background-image: url('../images/Image.png');
+  background-size: cover;
+  background-position: center;
+  top: -50px;
+}
+
 .app__navbar {
   width: 100%;
   display: flex;
@@ -18,6 +39,7 @@
 
   padding: 1rem 2rem;
   z-index: 2;
+  top: -50px;
 }
 
 .app__navbar-links {
@@ -38,7 +60,7 @@
 }
 
 a {
-  color: var(--gray-color);
+  color: rgb(7, 6, 28);
   text-decoration: none;
   flex-direction: column;
 
@@ -62,4 +84,9 @@ a {
   height: 50px;
   padding: 0px 24px 0px 24px;
   border: none; /* Add this line */
+}
+
+.brand-name {
+  font-size: 40px;
+  font-weight: 600;
 }
