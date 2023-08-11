@@ -3,6 +3,11 @@
   padding: 0px;
 }
 
+.app__name {
+  color: #da0f0f;
+  margin-top: 800px;
+}
+
 .app__categories {
   display: flex;
   justify-content: center;
@@ -12,6 +17,7 @@
 }
 
 .app__first-div {
+  margin-left: 130px;
   margin-right: 90px;
   width: 750px;
 }
@@ -30,7 +36,7 @@
 
 .app__list {
   width: 600px;
-  height: 65px;
+  height: 70px;
   margin-bottom: 15px;
   margin-right: 700px;
   padding: 20px;
