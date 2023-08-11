@@ -4,8 +4,16 @@
 }
 
 .app__categories {
+  display: flex;
+  justify-content: center;
+  gap: 315px;
   padding: 35px;
   background-color: #e6f2f2;
+}
+
+.app__first-div {
+  margin-right: 90px;
+  width: 750px;
 }
 
 .app__content-name {
@@ -36,4 +44,59 @@
 .app__arrows {
   width: 25px;
   color: rgb(5, 100, 83);
+}
+
+.app__travel-name {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.app__travel-guide {
+  margin-right: 250px;
+}
+.app__travel-card {
+  width: 530px;
+  height: 180px;
+  background-color: #fff;
+  padding: 20px;
+
+  display: flex;
+  gap: 0px;
+  justify-content: space-between;
+}
+
+.app__travel-guide-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.app__travel-btn {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid rgb(5, 100, 83);
+  border-radius: 5px;
+  color: rgb(5, 100, 83);
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app__travel-btn:hover {
+  background-color: rgb(5, 100, 83);
+  color: white;
+}
+
+.app__travel-pic {
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../images/boy.png');
+  border-radius: 50%;
 }
