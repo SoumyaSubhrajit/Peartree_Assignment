@@ -3,6 +3,21 @@
   padding: 0px;
 }
 
+.app__categories {
+  background-color: #e6f2f2;
+}
+
 .app__lists {
-  background-color: aqua;
+  padding: 10px;
+  margin-left: 220px;
+}
+
+.app__list {
+  width: 600px;
+  height: 65px;
+  margin-bottom: 20px;
+  margin-right: 700px;
+  padding: 20px;
+  background-color: #fff;
+  list-style: none;
 }

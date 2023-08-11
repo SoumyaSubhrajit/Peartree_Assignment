@@ -1,5 +1,6 @@
 import React from 'react';
 import arrow from '../images/arrow-forward-outline';
+import './Categories.css';
 function Catergories() {
   return (
     <div className='app__categories'>
