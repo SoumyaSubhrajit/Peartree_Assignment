@@ -4,23 +4,23 @@ import './Categories.css';
 function Catergories() {
   return (
     <div className='app__categories'>
-      <span>Categories</span>
+      <div className='app__content-name'>Categories</div>
       <ul className='app__lists'>
         <li className='app__list'>
           Adventure
-          <div className='app__arrow'>{arrow}</div>
+          <div className='app__arrows'>{arrow}</div>
         </li>
         <li className='app__list'>
-          Culinary <div className='app__arrow'>{arrow}</div>
+          Culinary <div className='app__arrows'>{arrow}</div>
         </li>
         <li className='app__list'>
-          Eco-tourism <div className='app__arrow'>{arrow}</div>
+          Eco-tourism <div className='app__arrows'>{arrow}</div>
         </li>
         <li className='app__list'>
-          Family <div className='app__arrow'>{arrow}</div>
+          Family <div className='app__arrows'>{arrow}</div>
         </li>
         <li className='app__list'>
-          Sport <div className='app__arrow'>{arrow}</div>
+          Sport <div className='app__arrows'>{arrow}</div>
         </li>
       </ul>
     </div>
