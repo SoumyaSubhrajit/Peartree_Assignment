@@ -7,9 +7,6 @@ import './Card.css';
 function Card() {
   return (
     <>
-      {/* <div className='app__highlights'>
-        <span>Highlights</span>
-      </div> */}
       <div className='app__cards'>
         <div className='app__card'>
           <div className='image'>
@@ -47,8 +44,8 @@ function Card() {
           </div>
 
           <div className='app__card-content'>
-            <h3>Surfing</h3>
-            <p>Best Hawaiian islands for surfing.</p>
+            <h3>Hula</h3>
+            <p>Try it yourself.</p>
           </div>
 
           <div className='app__arrow'>
@@ -76,8 +73,8 @@ function Card() {
           </div>
 
           <div className='app__card-content'>
-            <h3>Surfing</h3>
-            <p>Best Hawaiian islands for surfing.</p>
+            <h3>Vulcanoes</h3>
+            <p>Volcanic conditions can change at any time.</p>
           </div>
 
           <div className='app__arrow'>
